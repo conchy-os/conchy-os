@@ -7,3 +7,6 @@
 [submodule "session"]
 	path = session
 	url = https://github.com/conchy-os/conchy-session.git
+[submodule "config"]
+	path = config
+	url = https://github.com/conchy-os/conchy-config.git
