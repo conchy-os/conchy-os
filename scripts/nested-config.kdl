@@ -112,6 +112,11 @@ binds {
     Mod+Tab { toggle-overview; }
     Mod+O   { toggle-overview; }
 
+    // Скриншоты через conchy-shot (Only Rust, Unified multi-monitor canvas)
+    Print { spawn "conchy-shot"; }
+    Mod+Print { spawn "conchy-shot" "screen"; }
+    Mod+Shift+S { spawn "conchy-shot"; }
+
     // Выход из вложенного сеанса
     Mod+Shift+E { quit; }
 }
