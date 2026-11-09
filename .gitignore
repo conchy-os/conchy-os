@@ -1,0 +1,12 @@
+# Build artifacts
+target/
+compositor/target/
+smithay/target/
+*.qcow2
+*.fd
+*.log
+.cargo/
+
+# Local overrides
+local.kdl
+*.local
