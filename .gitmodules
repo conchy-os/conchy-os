@@ -10,3 +10,6 @@
 [submodule "config"]
 	path = config
 	url = https://github.com/conchy-os/conchy-config.git
+[submodule "shell"]
+	path = shell
+	url = https://github.com/conchy-os/conchy-shell.git
