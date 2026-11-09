@@ -4,3 +4,6 @@
 [submodule "smithay"]
 	path = smithay
 	url = https://github.com/conchy-os/smithay.git
+[submodule "session"]
+	path = session
+	url = https://github.com/conchy-os/conchy-session.git
