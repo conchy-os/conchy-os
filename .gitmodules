@@ -1,6 +1,6 @@
 [submodule "compositor"]
 	path = compositor
-	url = https://github.com/conchy-os/conchy.git
+	url = https://github.com/conchy-os/conchy-wm.git
 [submodule "smithay"]
 	path = smithay
 	url = https://github.com/conchy-os/smithay.git
