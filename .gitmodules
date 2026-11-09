@@ -13,3 +13,6 @@
 [submodule "shell"]
 	path = shell
 	url = https://github.com/conchy-os/conchy-shell.git
+[submodule "shot"]
+	path = shot
+	url = https://github.com/conchy-os/conchy-shot.git
