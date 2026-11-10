@@ -25,7 +25,7 @@ my-linux/
 
 ### 2. Session Orchestrator (`session/`)
 - Заменяет `systemd --user` на Void Linux.
-- Запуск D-Bus сессии и передача переменных окружения (`WAYLAND_DISPLAY`, `XDG_CURRENT_DESKTOP=niri`).
+- Запуск D-Bus сессии и передача переменных окружения (`WAYLAND_DISPLAY`, `XDG_CURRENT_DESKTOP=conchy:niri`).
 - Диспетчеризация процессов: композитор, шелл, порталы (`xdg-desktop-portal`), PipeWire, Polkit agent.
 - Автоматический перезапуск упавших сервисов и корректный выход из сессии.
 

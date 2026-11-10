@@ -58,8 +58,14 @@ window-rule {
     default-column-width { proportion 0.5; }
 }
 
-// Запуск shell при старте (если установлен conchy-shell)
+// Запуск обоев рабочего стола
+spawn-at-startup "hyprpaper"
+
+// Запуск shell при старте (панель, трей, док, виджеты)
 spawn-at-startup "conchy-shell"
+
+// Стартовый терминал
+spawn-at-startup "alacritty"
 
 hotkey-overlay {
     skip-at-startup
