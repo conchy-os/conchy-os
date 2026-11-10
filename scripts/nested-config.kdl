@@ -58,6 +58,9 @@ window-rule {
     default-column-width { proportion 0.5; }
 }
 
+// Запуск shell при старте (если установлен conchy-shell)
+spawn-at-startup "conchy-shell"
+
 hotkey-overlay {
     skip-at-startup
 }
@@ -69,7 +72,9 @@ binds {
     // Запуск терминала и лаунчера
     Mod+Return { spawn "alacritty"; }
     Mod+T { spawn "alacritty"; }
-    Mod+D { spawn "fuzzel"; }
+    Mod+D { spawn "conchy-shell" "toggle-launcher"; }
+    Mod+Shift+D { spawn "fuzzel"; }
+    Mod+I { spawn "conchy-shell" "toggle-control-center"; }
 
     // Управление окнами
     Mod+Q { close-window; }
