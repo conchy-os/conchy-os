@@ -16,3 +16,6 @@
 [submodule "shot"]
 	path = shot
 	url = https://github.com/conchy-os/conchy-shot.git
+[submodule "vpnx"]
+	path = vpnx
+	url = https://github.com/conchy-os/conchy-vpnx.git
