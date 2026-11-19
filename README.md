@@ -30,8 +30,14 @@
 my-linux/
 ├── compositor/           # Патченный композитор Niri (HDR, Tearing, SyncObj, Minimizing, Vulkan)
 ├── smithay/              # Модифицированный Smithay (DRM atomic colorop, HDR connectors)
-├── session/              # [В разработке] Rust Session Manager для Void Linux (замена systemd --user)
-├── shell/                # [В разработке] Системный шелл (панель, трей, OSD, Quick Settings)
+├── session/              # Rust Session Manager для Void Linux (замена systemd --user)
+├── shell/                # Системный шелл на GPUI (панель, трей, OSD, Quick Settings, лаунчер)
+├── config/               # Унифицированный KDL-конфигурационный демон, библиотека и CLI
+├── shot/                 # Инструмент скриншотов с canvas UX и аннотациями
+├── files/                # Быстрый файловый менеджер на GPUI с анализом диска и тремапом
+├── portal/               # Собственный Rust-бэкенд xdg-desktop-portal (Settings, Screenshare, etc.)
+├── lock/                 # Легковесный блокировщик экрана ext-session-lock-v1 с PAM
+├── vpnx/                 # Mihomo-based VPN клиент и сервис с D-Bus интеграцией
 ├── scripts/              # Скрипты запуска и тестовые конфигурации
 │   ├── run-nested.sh     # Запуск композитора во вложенном окне на текущем десктопе
 │   └── nested-config.kdl # Конфигурация для быстрого тестирования (Mod = Alt)

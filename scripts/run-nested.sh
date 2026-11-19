@@ -30,6 +30,30 @@ elif [ -d "${SCRIPT_DIR}/config/target/debug" ]; then
     export PATH="${SCRIPT_DIR}/config/target/debug:${PATH}"
 fi
 
+if [ -d "${SCRIPT_DIR}/files/target/release" ]; then
+    export PATH="${SCRIPT_DIR}/files/target/release:${PATH}"
+elif [ -d "${SCRIPT_DIR}/files/target/debug" ]; then
+    export PATH="${SCRIPT_DIR}/files/target/debug:${PATH}"
+fi
+
+if [ -d "${SCRIPT_DIR}/portal/target/release" ]; then
+    export PATH="${SCRIPT_DIR}/portal/target/release:${PATH}"
+elif [ -d "${SCRIPT_DIR}/portal/target/debug" ]; then
+    export PATH="${SCRIPT_DIR}/portal/target/debug:${PATH}"
+fi
+
+if [ -d "${SCRIPT_DIR}/lock/target/release" ]; then
+    export PATH="${SCRIPT_DIR}/lock/target/release:${PATH}"
+elif [ -d "${SCRIPT_DIR}/lock/target/debug" ]; then
+    export PATH="${SCRIPT_DIR}/lock/target/debug:${PATH}"
+fi
+
+if [ -d "${SCRIPT_DIR}/vpnx/target/release" ]; then
+    export PATH="${SCRIPT_DIR}/vpnx/target/release:${PATH}"
+elif [ -d "${SCRIPT_DIR}/vpnx/target/debug" ]; then
+    export PATH="${SCRIPT_DIR}/vpnx/target/debug:${PATH}"
+fi
+
 # Изолируем окружение от родительского хостового композитора
 unset HYPRLAND_INSTANCE_SIGNATURE
 export XDG_CURRENT_DESKTOP="conchy:niri"

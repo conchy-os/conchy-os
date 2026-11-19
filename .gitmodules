@@ -19,3 +19,12 @@
 [submodule "vpnx"]
 	path = vpnx
 	url = https://github.com/conchy-os/conchy-vpnx.git
+[submodule "files"]
+	path = files
+	url = https://github.com/conchy-os/conchy-files.git
+[submodule "portal"]
+	path = portal
+	url = https://github.com/conchy-os/conchy-portal.git
+[submodule "lock"]
+	path = lock
+	url = https://github.com/conchy-os/conchy-lock.git
